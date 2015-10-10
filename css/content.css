@@ -1,0 +1,30 @@
+.friend {
+	background-color: green;
+	/*border: 2px dashed green;*/
+}
+
+.family {
+	background-color: blue;
+	/*border: 2px dashed blue;*/
+}
+
+.enemy {
+	background-color: red;
+	/*border: 2px dashed red;*/
+}
+
+.contact{
+
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	/*border: 2px solid black;*/
+	margin-left: 115px;
+	margin-top: 115px;
+	text-align: center;
+}
+.contact  p {
+	margin-top: 40px;
+	font-size: 12px;
+}
