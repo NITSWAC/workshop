@@ -72,5 +72,20 @@
 		<img id= "secondimage" src="images/2.jpg"/> 
 
 	</div>
+    <div class="intro">
+       <p>This is another into</p>
+    </div>
+<script type="text/javascript">
+	var element=document.getElementById('myimage');
+	console.log(element);
+	var elements=document.getElementsByClassName('intro');
+	console.log(elements);
+	var i=0;
+	for(i;i<10;i++)
+		console.log('This is a loop'+i);
+	if(i == 10)
+		console.log("i value is "+i);
+	element.setAttribute('src','images/2.jpg');
+</script>
 </body>
 </html>
