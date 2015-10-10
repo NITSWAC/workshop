@@ -5,8 +5,47 @@
 		</title>
 		<link rel="shortcut icon" href="images/1.jpg">
 	<style>
+	html{
+		/*font-size :30;*/
+		background-image: url("images/background.png");
+		/*overflow: hidden;*/
+	}
+	body{
+		color: white ;
+		/*border: solid yellow 10px;*/
+		/*background-color: yellow;*/
+
+		/*width :100%;*/
+	}
+	.hellos{
+		text-align: center;
+	}
 	.intro{
-		font-size:20;
+		/*border : solid black;*/
+		/*text-align: center;*/
+		font-family: Arial, Verdana, sans-serif;
+		/*width: 50%;*/
+		margin: 10px 20px 5px 50px;
+		padding-left: 10px;
+		padding-bottom: 50px;
+	}
+	img{
+		width:50%;
+		height:auto;
+	}
+	#myimage{
+		height: 50%;
+		width: 40%;
+
+	}
+	#secondimage:hover{
+		opacity: 0.5;
+	}
+	a{
+		color: yellow;
+	}
+	a:hover{
+		color: red;
 	}
 	</style>	
 </head>
@@ -14,7 +53,7 @@
 
 <body>
 	
-	<div class="intro">
+	<div class="hellos">
 		Hello<br>
 		<i>Hello</i>
 		<br>
@@ -23,11 +62,14 @@
 		<em>Hello</em>
 		<br>
 		<strong>Hello</strong>
+	</div>
+	<div class="intro">
 		<h1 align = "center"> I am going to write paragraphs below </h1>
 		<p align = "right"> This is a paragraph </p>
 		<p> This is another paragraph </p>
 		<a href = "basics2.html"> Click here! </a><br>
-		<a href = "test2.html"><img height= 50% width = 40% src="images/1.jpg"/></a>
+		<a href = "test2.html"><img id ="myimage" src="images/1.jpg"/></a>
+		<img id= "secondimage" src="images/2.jpg"/> 
 
 	</div>
 </body>
